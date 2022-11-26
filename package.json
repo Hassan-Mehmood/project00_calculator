@@ -6,6 +6,9 @@
   "scripts": {
     "start": "ts-node-dev --respawn ./src/index.ts"
   },
+  "bin": {
+    "has-calc": "build/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
